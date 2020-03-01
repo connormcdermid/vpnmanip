@@ -1,0 +1,29 @@
+.\" Connector: Manual
+.\" Contact connor.mcdermid@mcvts.org to correct errors or typos.
+.TH man 1 "25 Feb 2020" "1.0" "Connector: Manual"
+.SH NAME
+connector \- Connect to an OpenVPN server quickly
+.SH SYNOPSIS
+connector add <profile name> <ovpn file> [options]
+.br
+connector connect <profile name> [options]
+.br
+connector disconnect
+.SH DESCRIPTION
+connector is a high-level shell program for connecting to OpenVPN servers.
+connector will stream openvpn output to log files. By default, they are at
+.br
+~/.vpns/logs/most_recent.log
+
+.SH OPTIONS
+   -o     Specifies output file for logs. Currently broken.
+.SH SEE ALSO
+openvpn(1), disconnector(1)
+.SH BUGS
+Many. To report them, please see my Github:
+.br
+https://github.com/connormcdermid/connector
+.br
+Custom logging file is disabled, logs are saved by default to ~/.vpns/logs/most_recent.log
+.SH AUTHOR
+Connor McDermid <connor.mcdermid@mcvts.org>

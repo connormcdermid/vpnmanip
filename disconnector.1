@@ -1,0 +1,21 @@
+.\" Disconnector: Manual
+.\" Contact connor.mcdermid@mcvts.org to correct errors or typos.
+.TH man 1 "28 Feb 2020" "1.0" "Disconnector: Manual"
+.SH NAME
+disconnector \- Disconnect from all OpenVPN servers
+.SH SYNOPSIS
+disconnector
+.br
+connector disconnect
+.SH DESCRIPTION
+disconnector is a shell script that calls connector(1) with the argument
+"disconnect" that triggers a disconnection of all OpenVPN
+instances and resets NetworkManager
+.SH OPTIONS
+No options.
+.SH SEE ALSO
+connector(1), openvpn(1), systemctl(1)
+.SH BUGS
+See connector(1)
+.SH AUTHOR
+Connor McDermid <connor.mcdermid@mcvts.org>

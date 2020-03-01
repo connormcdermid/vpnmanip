@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# stupid simple shell script
+connector disconnect
