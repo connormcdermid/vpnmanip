@@ -2,3 +2,5 @@
 build
 cmake-build-debug
 *.tar.gz
+production
+*.auto.sh
