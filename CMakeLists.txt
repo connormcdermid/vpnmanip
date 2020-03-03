@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(connector main.cpp)
 target_link_libraries(connector stdc++fs)
 install(TARGETS connector DESTINATION "${CMAKE_INSTALL_PREFIX}/bin")
-#TODO: FIx symlinking to VPNmanip
+#TODO: Fix symlinking to VPNmanip
 install(CODE "execute_process( \
             COMMAND ${CMAKE_COMMAND} -E create_symlink \
             connector \
