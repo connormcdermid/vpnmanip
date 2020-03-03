@@ -12,7 +12,7 @@ depends=('openvpn' 'cmake')
 makedepends=('cmake' 'make' )
 checkdepends=()
 optdepends=()
-provides=('connector')
+provides=('connector' 'disconnector' 'vpnmanip')
 conflicts=()
 replaces=()
 backup=()
@@ -21,7 +21,7 @@ install=
 changelog=
 source=("$pkgname-$pkgver.tar.gz")
 noextract=()
-md5sums=('6be596456539adc8642b23af52363cd1')
+md5sums=('d9c3ea36b51a8e91c24a778a3ea34446')
 validpgpkeys=()
 
 prepare() {
